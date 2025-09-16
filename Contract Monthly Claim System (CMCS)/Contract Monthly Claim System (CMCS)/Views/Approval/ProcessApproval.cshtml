@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Process Approval";
+}
+
+<h2>Process Claim Approval</h2>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5>Claim Information</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>Claim ID:</strong> @ViewBag.ClaimID</p>
+                <p><strong>Status:</strong> <span class="badge bg-warning">Pending Review</span></p>
+                <p><strong>Submitted:</strong> 3 days ago</p>
+                <p><strong>Amount:</strong> $1,440.00</p>
+            </div>
+        </div>
+
+        <form asp-action="ProcessApproval">
+            <input type="hidden" name="ClaimID" value="@ViewBag.ClaimID" />
+
+            <div class="form-group mb-3">
+                <label for="Decision" class="form-label">Approval Decision</label>
+                <select class="form-select" id="Decision" name="Decision" required>
+                    <option value="">Select decision...</option>
+                    <option value="Approved">Approve</option>
+                    <option value="Rejected">Reject</option>
+                    <option value="Needs Review">Needs Further Review</option>
+                </select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="Comments" class="form-label">Comments</label>
+                <textarea class="form-control" id="Comments" name="Comments" rows="4" placeholder="Add your comments regarding this decision"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Submit Decision</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>="btn-group" role="group">
+<a asp-action="Details" asp-route-id="@item.RoleID" class="btn btn-info btn-sm">Details</a>
+<a asp-action="Edit" asp-route-id="@item.RoleID" class="btn btn-warning btn-sm">Edit</a>
+<button type="button" class="btn btn-danger btn-sm">Delete</button>
+</div>
+</td>
+</tr>
+            }
+</tbody>
+</table>
+</div>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Contract Monthly Claim System (CMCS)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5ee3203f196f7806bc645b40761b38ec43edb20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b58c8ac94fd14f14d168f6c7db67f79cbe41ddd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Contract Monthly Claim System (CMCS)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Contract Monthly Claim System (CMCS)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

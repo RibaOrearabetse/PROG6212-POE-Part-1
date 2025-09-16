@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Contract_Monthly_Claim_System__CMCS_.Models.Role>
+@{
+    ViewData["Title"] = "Roles";
+}
+
+<h2>Roles</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Role</a>
+</p>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Role ID</th>
+                <th>Role Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.RoleID</td>
+                    <td>@item.RoleName</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a asp-action="Details" asp-route-id="@item.RoleID" class="btn btn-info btn-sm">Details</a>
+                            <a asp-action="Edit" asp-route-id="@item.RoleID" class="btn btn-warning btn-sm">Edit</a>
+                            <a asp-action="Approve" asp-route-id="@item.RoleID" class="btn btn-success btn-sm">Approve</a>
+                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

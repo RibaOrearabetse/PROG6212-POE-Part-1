@@ -3,6 +3,35 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome to CMCS</h1>
+    <p class="lead">Contract Monthly Claim System</p>
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Submit Claims</h5>
+                    <p class="card-text">Submit your monthly contract claims for processing.</p>
+                    <a href="@Url.Action("Create", "Claim")" class="btn btn-primary">Submit Claim</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">View Claims</h5>
+                    <p class="card-text">Track the status of your submitted claims.</p>
+                    <a href="@Url.Action("Index", "Claim")" class="btn btn-info">View Claims</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Manage Users</h5>
+                    <p class="card-text">Manage system users and their roles.</p>
+                    <a href="@Url.Action("Index", "User")" class="btn btn-success">Manage Users</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

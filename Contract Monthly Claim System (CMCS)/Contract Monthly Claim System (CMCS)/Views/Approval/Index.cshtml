@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Contract_Monthly_Claim_System__CMCS_.Models.Approval>
+@{
+    ViewData["Title"] = "Approvals";
+}
+
+<h2>Claim Approvals</h2>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Approval ID</th>
+                <th>Approval Date</th>
+                <th>Comments</th>
+                <th>Claim ID</th>
+                <th>Approver ID</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ApprovalID</td>
+                    <td>@item.ApprovalDate.ToShortDateString()</td>
+                    <td>@item.Comments</td>
+                    <td>@item.ClaimID</td>
+                    <td>@item.ApproverID</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a asp-action="Details" asp-route-id="@item.ApprovalID" class="btn btn-info btn-sm">Details</a>
+                            <button type="button" class="btn btn-warning btn-sm">Modify</button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

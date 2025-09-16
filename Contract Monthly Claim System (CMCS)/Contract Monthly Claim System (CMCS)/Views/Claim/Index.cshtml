@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Contract_Monthly_Claim_System__CMCS_.Models.Claim>
+@{
+    ViewData["Title"] = "Claims";
+}
+
+<h2>Claims</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Submit New Claim</a>
+</p>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Claim ID</th>
+                <th>Claim Date</th>
+                <th>Status</th>
+                <th>Hours Worked</th>
+                <th>Hourly Rate</th>
+                <th>Total Amount</th>
+                <th>Submission Date</th>
+                <th>User ID</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ClaimID</td>
+                        <td>@item.ClaimDate.ToShortDateString()</td>
+                        <td>
+                            <span class="@(item.ClaimStatus.ToLower() == "pending" ? "status-pending" :
+                                                                           item.ClaimStatus.ToLower() == "approved" ? "status-approved" : "status-rejected")">
+                        @item.ClaimStatus
+                    </span>
+                </td>
+                <td>@item.HoursWorked</td>
+                <td>@item.HourlyRate.ToString("C")</td>
+                <td>@item.TotalAmount.ToString("C")</td>
+                <td>@item.SubmissionDate.ToShortDateString()</td>
+                <td>@item.UserID</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a asp-action="Details" asp-route-id="@item.ClaimID" class="btn btn-info btn-sm">Details</a>
+                        <a asp-action="Edit" asp-route-id="@item.ClaimID" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-action="Approve" asp-route-id="@item.ClaimID" class="btn btn-success btn-sm">Approve</a>
+                        <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                    </div>
+                </td>
+            </tr>
+                        }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="9" class="text-center">No claims found.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
