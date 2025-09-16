@@ -1,25 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\",
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\source\\repos\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\models\\approval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\controllers\\approvalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\controllers\\approvalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\controllers\\supportingdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\controllers\\supportingdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\models\\approval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\models\\approval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\source\\repos\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\models\\supportingdocumenting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\models\\supportingdocumenting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\models\\supportingdocumenting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\source\\repos\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\source\\repos\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\source\\repos\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|c:\\users\\lab_services_student\\onedrive\\desktop\\prog6212-poe-part-1\\contract monthly claim system (cmcs)\\contract monthly claim system (cmcs)\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D9F309-6691-4814-AB2A-1516D4C55F77}|Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj|solutionrelative:contract monthly claim system (cmcs)\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,76 +62,171 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Approval.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Approval.cs",
-              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Models\\Approval.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Approval.cs",
-              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Models\\Approval.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T12:56:03.378Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T18:54:34.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SupportingDocumenting.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\SupportingDocumenting.cs",
-              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Models\\SupportingDocumenting.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\SupportingDocumenting.cs",
-              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Models\\SupportingDocumenting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T12:53:22.612Z",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADIAAADAMzMzMzMrwEUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T18:48:56.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Claim.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Claim.cs",
-              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Models\\Claim.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Claim.cs",
-              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Models\\Claim.cs",
-              "ViewState": "AgIAAA0AAAAAzczMzMwBwBcAAAAFAAAAAAAAAA==",
+              "Title": "ApprovalController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\ApprovalController.cs",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Controllers\\ApprovalController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\ApprovalController.cs",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Controllers\\ApprovalController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T12:49:06.315Z",
+              "WhenOpened": "2025-09-16T18:45:49.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\User.cs",
-              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Models\\User.cs",
-              "ViewState": "AgIAABAAAAAAZmZmZmYOwBcAAAAFAAAAAAAAAA==",
+              "Title": "SupportingDocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\SupportingDocumentController.cs",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Controllers\\SupportingDocumentController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\SupportingDocumentController.cs",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Controllers\\SupportingDocumentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T12:47:01.965Z",
+              "WhenOpened": "2025-09-16T18:08:54.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Role.cs",
-              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Models\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Controllers\\ClaimController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T12:43:58.949Z",
+              "WhenOpened": "2025-09-16T18:06:25.25Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T18:02:12.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T18:00:35.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T17:37:28.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Approval.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Approval.cs",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Models\\Approval.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Approval.cs",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Models\\Approval.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T12:56:03.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SupportingDocumenting.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\SupportingDocumenting.cs",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Models\\SupportingDocumenting.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\SupportingDocumenting.cs",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Models\\SupportingDocumenting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T12:53:22.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Claim.cs",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Models\\Claim.cs",
+              "ViewState": "AgIAAA0AAAAAzczMzMwBwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T12:49:06.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\User.cs",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Models\\User.cs",
+              "ViewState": "AgIAABAAAAAAZmZmZmYOwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T12:47:01.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Contract Monthly Claim System (CMCS)\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Models\\Role.cs",
+              "RelativeToolTip": "Contract Monthly Claim System (CMCS)\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T12:43:58.949Z"
             }
           ]
         }

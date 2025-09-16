@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uIR+PO3jfU4=",
+  "dgSpecHash": "/nq0xmA98Us=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lab_services_student\\source\\repos\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj",
+  "projectFilePath": "C:\\Users\\lab_services_student\\OneDrive\\Desktop\\PROG6212-POE-Part-1\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS)\\Contract Monthly Claim System (CMCS).csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lab_services_student\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\9.0.9\\microsoft.aspnetcore.authentication.negotiate.9.0.9.nupkg.sha512",
     "C:\\Users\\lab_services_student\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\9.0.9\\microsoft.aspnetcore.connections.abstractions.9.0.9.nupkg.sha512",
