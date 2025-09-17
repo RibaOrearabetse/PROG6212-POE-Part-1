@@ -1,5 +1,8 @@
-# PROG6212-POE-Part-1
+Of course. Here is a professional and comprehensive `README.md` file for your GitHub repository. It's designed to impress assessors and clearly communicate the purpose and state of your project.
 
+You can copy and paste this directly into a file named `README.md` in the root of your project.
+
+```markdown
 # Contract Monthly Claim System (CMCS) - PROG6212 POE Part 1
 
 ![.NET Core](https://img.shields.io/b/.NET%20Core-6.0-blueviolet)
@@ -42,7 +45,7 @@ This is a **non-functional prototype**. The application features a complete, nav
 
 The application is built on a well-structured database schema. The core entities and their relationships are shown in the UML Class Diagram below, forming the foundation for the application's data model.
 
-
+![UML Class Diagram](/path/to/your/uml-diagram.png) <!-- Upload your image and link to it here -->
 
 **Key Entities:**
 *   `User` - Stores all system users.
@@ -82,3 +85,31 @@ The application is built on a well-structured database schema. The core entities
     *   **Important:** Use the navigation menu to explore all features. Remember, this is a prototype—forms will not submit data, and buttons will only simulate actions.
 
 ## 📁 Project Structure
+
+```
+PROG6212-POE-Part-1/
+├── Controllers/         # MVC Controllers (e.g., HomeController, UserController)
+├── Models/              # Data Models (e.g., User, Claim, Role)
+├── Views/               # Razor Views for each controller action
+│   ├── Home/
+│   ├── User/
+│   ├── Claim/
+│   └── ...
+├── wwwroot/             # Static files (CSS, JS, images)
+└── README.md            # This file
+```
+
+## 📄 Documentation
+
+Full project documentation, including design rationale, project planning, and assumptions, can be found in the submitted report.
+
+## 👤 Author
+
+**Orearabetse Riba** 
+- Student Number: ST10446648
+- GitHub: [@RibaOrearabetse](https://github.com/RibaOrearabetse)
+
+
+
+This project is created for educational purposes as part of the PROG6212 module.
+```
