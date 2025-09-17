@@ -9,6 +9,18 @@
     <a asp-action="Upload" class="btn btn-primary">Upload Document</a>
 </p>
 
+<script>
+    function simulateDownload(documentId, fileName) {
+        alert('Download request received for Document ID: ' + documentId + ' (' + fileName + '). In a real application, this would download the file.');
+    }
+
+    function confirmDelete(documentId, fileName) {
+        if (confirm('Are you sure you want to delete the document "' + fileName + '"? (This is a demo; no data will be deleted)')) {
+            alert('Delete request received for Document ID: ' + documentId + '. In a real application, this would delete the record.');
+        }
+    }
+</script>
+
 <div class="table-responsive">
     <table class="table table-striped">
         <thead>
@@ -31,8 +43,8 @@
                     <td>
                         <div class="btn-group" role="group">
                             <a asp-action="Details" asp-route-id="@item.DocumentID" class="btn btn-info btn-sm">Details</a>
-                            <button type="button" class="btn btn-success btn-sm">Download</button>
-                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            <button type="button" class="btn btn-success btn-sm" onclick="simulateDownload(@item.DocumentID, '@item.FileName')">Download</button>
+                            <button type="button" class="btn btn-danger btn-sm" onclick="confirmDelete(@item.DocumentID, '@item.FileName')">Delete</button>
                         </div>
                     </td>
                 </tr>

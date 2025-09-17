@@ -6,35 +6,35 @@
 
 <div class="row">
     <div class="col-md-8">
-        <form asp-action="Create">
+        <form method="get">
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group mb-3">
                         <label for="FirstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="FirstName" name="FirstName" required>
+                        <input type="text" class="form-control" id="FirstName" name="FirstName" required disabled>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group mb-3">
                         <label for="LastName" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="LastName" name="LastName" required>
+                        <input type="text" class="form-control" id="LastName" name="LastName" required disabled>
                     </div>
                 </div>
             </div>
 
             <div class="form-group mb-3">
                 <label for="Email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="Email" name="Email" required>
+                <input type="email" class="form-control" id="Email" name="Email" required disabled>
             </div>
 
             <div class="form-group mb-3">
                 <label for="ContactNumber" class="form-label">Contact Number</label>
-                <input type="tel" class="form-control" id="ContactNumber" name="ContactNumber">
+                <input type="tel" class="form-control" id="ContactNumber" name="ContactNumber" disabled>
             </div>
 
             <div class="form-group mb-3">
-                <label for="RoleID" class="form-label">Role</label>
-                <select class="form-select" id="RoleID" name="RoleID" required>
+                <label for="RoleID" class="form-label">Role</label>                
+                <select class="form-select" id="RoleID" name="RoleID" required disabled>
                     <option value="">Select a role...</option>
                     @foreach (var role in ViewBag.Roles as List<Contract_Monthly_Claim_System__CMCS_.Models.Role>)
                     {
@@ -43,8 +43,8 @@
                 </select>
             </div>
 
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary">Create</button>
+            <div class="form-group">                
+                <button type="button" class="btn btn-primary">Create</button>
                 <a asp-action="Index" class="btn btn-secondary">Cancel</a>
             </div>
         </form>

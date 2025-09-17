@@ -18,6 +18,11 @@ namespace Contract_Monthly_Claim_System__CMCS_.Controllers
             return View();
         }
 
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

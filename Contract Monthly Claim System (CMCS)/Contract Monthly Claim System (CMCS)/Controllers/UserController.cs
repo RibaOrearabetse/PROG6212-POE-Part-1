@@ -5,27 +5,40 @@ namespace Contract_Monthly_Claim_System__CMCS_.Controllers
 {
     public class UserController : Controller
     {
+        // GET: User/Index - Shows the list of users
         public IActionResult Index()
         {
             var users = GetSampleUsers();
             return View(users);
         }
 
+        // GET: User/Details/5 - Shows details for a single user
         public IActionResult Details(int id)
         {
             var user = GetSampleUsers().FirstOrDefault(u => u.UserID == id);
+            if (user == null)
+            {
+                // For a non-functional prototype, simply redirect to index if not found
+                return RedirectToAction(nameof(Index));
+            }
             return View(user);
         }
 
+        // GET: User/Create - Shows the empty create form
         public IActionResult Create()
         {
             ViewBag.Roles = GetSampleRoles();
             return View();
         }
 
+        // GET: User/Edit/5 - Shows the edit form pre-populated with user data
         public IActionResult Edit(int id)
         {
             var user = GetSampleUsers().FirstOrDefault(u => u.UserID == id);
+            if (user == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
             ViewBag.Roles = GetSampleRoles();
             return View(user);
         }

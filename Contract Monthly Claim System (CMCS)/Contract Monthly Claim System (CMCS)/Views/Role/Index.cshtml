@@ -9,6 +9,14 @@
     <a asp-action="Create" class="btn btn-primary">Create New Role</a>
 </p>
 
+<script>
+    function confirmDelete(roleId) {
+        if (confirm('Are you sure you want to delete this role? (This is a demo; no data will be deleted)')) {
+            alert('Delete request received for Role ID: ' + roleId + '. In a real application, this would delete the record.');
+        }
+    }
+</script>
+
 <div class="table-responsive">
     <table class="table table-striped">
         <thead>
@@ -28,8 +36,7 @@
                         <div class="btn-group" role="group">
                             <a asp-action="Details" asp-route-id="@item.RoleID" class="btn btn-info btn-sm">Details</a>
                             <a asp-action="Edit" asp-route-id="@item.RoleID" class="btn btn-warning btn-sm">Edit</a>
-                            <a asp-action="Approve" asp-route-id="@item.RoleID" class="btn btn-success btn-sm">Approve</a>
-                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            <button type="button" class="btn btn-danger btn-sm" onclick="confirmDelete(@item.RoleID)">Delete</button>
                         </div>
                     </td>
                 </tr>

@@ -5,6 +5,12 @@
 
 <h2>Claim Approvals</h2>
 
+<script>
+    function showModifyMessage(approvalId) {
+        alert('Modify request received for Approval ID: ' + approvalId + '. In a real application, this would open an edit form.');
+    }
+</script>
+
 <div class="table-responsive">
     <table class="table table-striped">
         <thead>
@@ -29,7 +35,7 @@
                     <td>
                         <div class="btn-group" role="group">
                             <a asp-action="Details" asp-route-id="@item.ApprovalID" class="btn btn-info btn-sm">Details</a>
-                            <button type="button" class="btn btn-warning btn-sm">Modify</button>
+                            <button type="button" class="btn btn-warning btn-sm" onclick="showModifyMessage(@item.ApprovalID)">Modify</button>
                         </div>
                     </td>
                 </tr>

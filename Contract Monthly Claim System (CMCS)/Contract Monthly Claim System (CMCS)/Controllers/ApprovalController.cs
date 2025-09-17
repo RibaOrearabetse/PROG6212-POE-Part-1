@@ -10,19 +10,20 @@ namespace Contract_Monthly_Claim_System__CMCS_.Controllers
             var approvals = GetSampleApprovals();
             return View(approvals);
         }
-
         public IActionResult Details(int id)
         {
             var approval = GetSampleApprovals().FirstOrDefault(a => a.ApprovalID == id);
+            if (approval == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
             return View(approval);
         }
-
         public IActionResult ProcessApproval(int claimId)
         {
             ViewBag.ClaimID = claimId;
             return View();
         }
-
         private List<Approval> GetSampleApprovals()
         {
             return new List<Approval>

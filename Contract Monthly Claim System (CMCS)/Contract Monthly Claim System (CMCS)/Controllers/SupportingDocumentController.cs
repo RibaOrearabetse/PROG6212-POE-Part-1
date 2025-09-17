@@ -10,19 +10,20 @@ namespace Contract_Monthly_Claim_System__CMCS_.Controllers
             var documents = GetSampleDocuments();
             return View(documents);
         }
-
         public IActionResult Details(int id)
         {
             var document = GetSampleDocuments().FirstOrDefault(d => d.DocumentID == id);
+            if (document == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
             return View(document);
         }
-
         public IActionResult Upload(int claimId)
         {
             ViewBag.ClaimID = claimId;
             return View();
         }
-
         private List<SupportingDocument> GetSampleDocuments()
         {
             return new List<SupportingDocument>

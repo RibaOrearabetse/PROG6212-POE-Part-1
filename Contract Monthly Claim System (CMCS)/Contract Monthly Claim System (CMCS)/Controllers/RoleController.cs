@@ -10,24 +10,28 @@ namespace Contract_Monthly_Claim_System__CMCS_.Controllers
             var roles = GetSampleRoles();
             return View(roles);
         }
-
         public IActionResult Details(int id)
         {
             var role = GetSampleRoles().FirstOrDefault(r => r.RoleID == id);
+            if (role == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
             return View(role);
         }
-
         public IActionResult Create()
         {
             return View();
         }
-
         public IActionResult Edit(int id)
         {
             var role = GetSampleRoles().FirstOrDefault(r => r.RoleID == id);
+            if (role == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
             return View(role);
         }
-
         private List<Role> GetSampleRoles()
         {
             return new List<Role>

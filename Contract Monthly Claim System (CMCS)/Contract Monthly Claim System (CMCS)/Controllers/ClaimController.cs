@@ -10,30 +10,37 @@ namespace Contract_Monthly_Claim_System__CMCS_.Controllers
             var claims = GetSampleClaims();
             return View(claims);
         }
-
         public IActionResult Details(int id)
         {
             var claim = GetSampleClaims().FirstOrDefault(c => c.ClaimID == id);
+            if (claim == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
             return View(claim);
         }
-
         public IActionResult Create()
         {
             return View();
         }
-
         public IActionResult Edit(int id)
         {
             var claim = GetSampleClaims().FirstOrDefault(c => c.ClaimID == id);
+            if (claim == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
             return View(claim);
         }
-
         public IActionResult Approve(int id)
         {
             var claim = GetSampleClaims().FirstOrDefault(c => c.ClaimID == id);
+            if (claim == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
             return View(claim);
         }
-
         private List<Claim> GetSampleClaims()
         {
             return new List<Claim>
